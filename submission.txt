@@ -1,0 +1,12 @@
+# Menjalankan ETL pipeline
+python main.py
+
+# Menjalankan unit test dengan coverage
+python -m pytest tests -v --cov --cov-report=html
+
+# Membuka laporan coverage (sesuaikan OS)
+coverage report # Menampikan di terminal
+start htmlcov/index.html  # Windows HTML
+
+# Url Google Sheets (output disimpan di sini)
+https://docs.google.com/spreadsheets/d/1y3BckHIc9K0MgPXLIWFG46r8a-bcuBL-rxQPT_JceGI/edit?usp=sharing
